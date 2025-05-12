@@ -7,6 +7,6 @@
 
   outputs = {self, nixpkgs }:
     {
-      homeManagerModules = { nix-gnome-home-configs = import ./modules/gnome.nix; };;
+      homeManagerModules = { nix-gnome-home-configs = import ./modules/gnome.nix; };
     };
 }
