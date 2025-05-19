@@ -48,7 +48,7 @@ in
         };
 
         "org/gnome/desktop/interface" = {
-          cursor-theme = "breeze_cursors";
+          cursor-theme = "Adwaita";
           font-name = "Noto Sans,  10";
           gtk-theme = "Adwaita";
           icon-theme = "breeze";
