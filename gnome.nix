@@ -99,8 +99,11 @@ in
         ################################
         # Power
 
-        # Powermode default (Because could not find how to set it)
-        #"org/gnome/desktop/session/idle-delay" = uint32 300 # Screen Blank
+        "org/gnome/desktop/session" = {
+          idle-delay = lib.hm.gvariant.mkUint32 0;
+        };
+        
+        
 
         "org/gnome/settings-daemon/plugins/power" = {
           sleep-inactive-ac-type = "nothing"; # Automatic suspend
